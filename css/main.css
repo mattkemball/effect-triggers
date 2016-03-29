@@ -87,7 +87,6 @@ div {
 
   background-color: orange;
   border-radius: 50%;
-  
 
 }
 
@@ -96,26 +95,32 @@ div {
 }
 
 @keyframes bounce {
-  0%{
+
+  0% {
     right:-100px;
     top:10px;
   }
+
   25% {
     top: 40px;
   }
+
   45% {
+
     top: 20px;
   }
-  65%{
+
+  65% {
+
     top:10px;
   }
+
   100% {
+
     right: 100px;
     top: 20px;
   }
 }
-
-
 
 .list {
   bottom: 1em;
@@ -145,6 +150,7 @@ div {
 }
 
 @keyframes grow {
+
   0% {
     max-height: 0;
   }
